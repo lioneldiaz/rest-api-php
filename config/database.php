@@ -11,7 +11,7 @@ class DataBase {
    * @description Constructor
    * @param {Array} dbDetails Array with the parameters for the connection to the database 
    */
-  public function __construct ($dbDetails = array()) {
+  private function __construct ($dbDetails = array()) {
     $this->dbName = $dbDetails['dbName'];
     $this->dbHost = $dbDetails['dbHost'];
     $this->dbUser = $dbDetails['dbUser'];
